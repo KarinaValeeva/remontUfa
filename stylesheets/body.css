@@ -1,0 +1,95 @@
+body {
+  background-color: #FAFAFA;
+  
+}
+article {
+  padding-bottom: 20vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+article > *:not(section) {
+  width: 728px;
+  margin: 0 auto;
+}
+
+article h1,
+article h2,
+article h3 {
+  font-family: 'PT Sans Caption', sans-serif;
+
+}
+
+article h1 {
+  margin-top: 100px;
+  font-size: 30px;
+  line-height: 46px;
+}
+
+article h1 + p {
+  margin-top: 14px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, .7);
+}
+
+ /*div + p {
+  margin-top: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, .7);
+}*/
+
+div + article p {
+  margin-top: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, .7);
+}
+article p + p {
+  margin-top: 14px;
+}
+article h2 {
+  margin-top: 36px;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+article h2 + p {
+  margin-top: 7px;
+}
+
+article h3 {
+  margin-top: 36px;
+  font-size: 26px;
+  line-height: 34px;
+}
+
+article h3 + p {
+  margin-top: 6px;
+}
+
+
+article p,
+article blockquote,
+article li {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.icons p,
+.icons2 p,
+.icons3 p,
+.icons4 p {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}

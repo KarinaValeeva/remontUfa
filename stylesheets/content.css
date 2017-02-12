@@ -1,0 +1,46 @@
+.content {
+  position: fixed;
+  z-index: 1;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 18px;
+}
+
+.content .container {
+  width: 100vw;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+}
+.content .row {
+
+  height: 100px;
+}
+
+.content .row > div{
+  background-color: #3c3c3c;
+  color: lightgrey;
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding: 35px;
+  line-height: 20px;
+
+}
+
+.about {
+  text-decoration: none;
+  color: lightgrey;
+  transition: all .1s ease;
+
+}
+
+.about:hover {
+  color: rgba(0,0,0,.4);
+}
+
+.content .row > span{
+  display: inline;
+  background-color: lightgrey;
+  color: black;
+  text-align:left;
+  padding: 25px;
+  line-height: 15px;
+
+}

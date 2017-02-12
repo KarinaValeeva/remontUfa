@@ -1,0 +1,57 @@
+.landingWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  width: 980px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+.icons2,
+.icons3,
+.icons4 {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  align-items: center;
+  text-align: center;
+}
+.iconsmain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons figure {
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 128px;
+  height: 128px;
+  background-size: cover;
+  background-position: center;
+}
+
+.icons2 figure,
+.icons3 figure,
+.icons4 figure {
+  margin-top: 30px;
+  width: 128px;
+  height: 128px;
+  background-size: cover;
+  background-position: center;
+}
+.icons p:hover {
+  color: rgba(0,0,0,.2);
+}
